@@ -1,0 +1,113 @@
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  transition: .3s ease-in-out;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.primary-btn {
+  background-color: $accent;
+  color: $white;
+  &:hover {
+    background-color: $accent-hover;
+  }
+  &:active {
+    background-color: $accent-active;
+  }
+  &:focus {
+    border: 2px solid $accent-active;
+  }
+  &:disabled {
+    background-color: $accent-disabled;
+  }
+}
+.primary-white-btn {
+  color: $accent;
+  background-color: $white;
+  &:hover {
+    background-color: rgba($white, .88);
+  }
+  &:active {
+    background-color: rgba($white, .96);
+  }
+  &:focus {
+    border: 2px solid $accent-active;
+  }
+  &:disabled {
+    background-color: rgba($white, .24);
+  }
+}
+.secondary-btn {
+  border: 1px solid $accent;
+  background-color: $white;
+  color: $accent;
+  &:hover {
+    background-color: rgba($accent, .04);
+  }
+  &:active {
+    background-color: rgba($accent, .08);
+  }
+  &:focus {
+    border: 2px solid rgba($black, .48);
+  }
+  &:disabled {
+    border-color: rgba($accent, .56);
+    background-color: rgba($white, .56);
+    color: rgba($accent, .56);
+  }
+}
+.secondary-white-btn {
+  border: 1px solid $white;
+  background-color: transparent;
+  color: $white;
+  &:hover {
+    background-color: rgba($white, .12);
+  }
+  &:active {
+    background-color: rgba($white, .16);
+  }
+  &:focus {
+    border: 2px solid $white;
+  }
+  &:disabled {
+    border-color: rgba($white, .56);
+    color: rgba($white, .56);
+  }
+}
+.flat-btn {
+  background-color: transparent;
+  color: $accent;
+  &:hover {
+    background-color: rgba($accent, .04);
+  }
+  &:active {
+    background-color: rgba($accent, .08);
+  }
+  &:focus {
+    border: 2px solid rgba($black, .48);
+  }
+  &:disabled {
+    background-color: transparent;
+    color: rgba($accent, .56);
+  }
+}
+.flat-white-btn {
+  background-color: transparent;
+  color: $white;
+  &:hover {
+    background-color: rgba($white, .08);
+  }
+  &:active {
+    background-color: rgba($white, .16);
+  }
+  &:focus {
+    border: 2px solid $white;
+  }
+  &:disabled {
+    background-color: transparent;
+    color: rgba($white, .56);
+  }
+}

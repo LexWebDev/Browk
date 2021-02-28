@@ -1,0 +1,70 @@
+<!--#set var="title" value="Auth Page" -->
+<!--#include virtual="/parts/header.html" -->
+
+	<div class="auth-bg">
+		<div class="auth-block auth-tabs">
+			<div class="auth-block_top">
+				<h4>Profile</h4>
+				<ul class="auth-tabs__caption">
+					<li class="active">Registration</li>
+					<li>Sign In</li>
+				</ul>
+			</div>
+			<div class="auth-block_middle">
+				<div class="sign_text">You can sign in with social</div>
+				<div class="social-items">
+					<a href="#" class="social-item">
+						<img src="images/dist/icons/vk.svg" alt="vk">
+					</a>
+					<a href="#" class="social-item">
+						<img src="images/dist/icons/facebook.svg" alt="facebook">
+					</a>
+					<a href="#" class="social-item">
+						<img src="images/dist/icons/google.svg" alt="google">
+					</a>
+				</div>
+			</div>
+			<div class="auth-block_bottom">
+				<div class="auth-tabs__content active">
+					<form class="form-sign" action="#">
+						<div class="input-group">
+							<input id="input__username" class="input-group__input" type="text" name="name" placeholder="Your Name" />
+							<label for="input__username" class="input-group__label" data-content="Your Name"></label>
+						</div>
+						<div class="input-group">
+							<input id="input__email" class="input-group__input" type="email" name="Email" placeholder="Email" />
+							<label for="input__email" class="input-group__label" data-content="Email"></label>
+						</div>
+						<div class="input-group">
+							<input id="input__phone" class="input-group__input" type="tel" name="Phone" placeholder="Phone" />
+							<label for="input__phone" class="input-group__label" data-content="Phone"></label>
+						</div>
+						<label class="check option">
+							<input type="checkbox" class="check__input" >
+							<span class="checkbox"></span>
+							<span class="check__text">I accept the terms of the offer of <a href="#">the privacy policy</a></span>
+						</label>
+						<input class="btn primary-btn" type="submit" value="Registration">
+						<input class="btn flat-btn" type="reset" value="Sign In">
+					</form>
+				</div>
+				<div class="auth-tabs__content">
+					<form class="form-sign" action="#">
+						<div class="input-group">
+							<input id="email" class="input-group__input" type="email" name="Email" placeholder="Email" />
+							<label for="email" class="input-group__label" data-content="Email"></label>
+						</div>
+						<div class="input-group">
+							<input id="password" class="input-group__input" type="password" name="password" placeholder="Password" />
+							<label for="password" class="input-group__label" data-content="Password"></label>
+						</div>
+						<input class="btn primary-btn" type="submit" value="Sign In">
+						<input class="btn flat-btn" type="reset" value="Registration">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--#include virtual="/parts/footer.html" -->
