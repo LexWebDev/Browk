@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	$('#menu').hcOffcanvasNav({
 		disableAt: 800,
 		position: 'right',
-		labelClose: 'Закрыть',
-		labelBack: 'Назад'
+		labelClose: 'Close',
+		labelBack: 'Back'
 	});
 
 })
