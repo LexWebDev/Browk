@@ -85,6 +85,9 @@
       width: 50%;
     }
   }
+  .auth-block_middle {
+    flex-direction: column;
+  }
 }
 @media (max-width: 410px) {
   .profile-block {
